@@ -1,0 +1,17 @@
+body {
+    background-color: #011212;
+}
+
+:root {
+
+    --position-central: translateX(center), translateY(center);
+    --squared-object: border(1px solid blue), border-radius(none);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: var(--position-central, #ff8800);
+    border-radius: var(--squared-object, 50px);
+    
+}
