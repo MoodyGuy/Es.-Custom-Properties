@@ -3,15 +3,17 @@ body {
 }
 
 :root {
-
+    --base-color: aqua; 
     --position-central: translateX(center), translateY(center);
-    --squared-object: border(1px solid blue), border-radius(none);
+    --squared-object: border-radius(none);
+    --basic-border: 5px solid blue;
 }
 
 .ball {
+    border: var(--basic-border, 1px solid yellow);
     width: 100px;
     height: 100px;
-    background-color: var(--position-central, #ff8800);
+    background-color: var(--base-color, #ff8800);
     border-radius: var(--squared-object, 50px);
     
 }
