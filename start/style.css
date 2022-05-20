@@ -4,7 +4,6 @@ body {
 
 :root {
     --base-color: aqua; 
-    --position-central: translateX(center), translateY(center);
     --squared-object: border-radius(none);
     --basic-border: 5px solid blue;
 }
